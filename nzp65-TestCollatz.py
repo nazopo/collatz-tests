@@ -85,56 +85,56 @@ class TestCollatz(TestCase):
         Test if eval method will work
         """
         max_cycle_length = collatz_eval(1, 10)
-        self.assertEqual(max_cycle_length, 1)
+        self.assertEqual(max_cycle_length, 20)
 
     def test_eval_2(self):
         """
         Test if eval method will work
         """
         max_cycle_length = collatz_eval(100, 200)
-        self.assertEqual(max_cycle_length, 1)
+        self.assertEqual(max_cycle_length, 125)
 
     def test_eval_3(self):
         """
         Test if eval method will work
         """
         max_cycle_length = collatz_eval(201, 210)
-        self.assertEqual(max_cycle_length, 1)
+        self.assertEqual(max_cycle_length, 89)
 
     def test_eval_4(self):
         """
         Test if eval method will work
         """
         max_cycle_length = collatz_eval(900, 1000)
-        self.assertEqual(max_cycle_length, 1)
+        self.assertEqual(max_cycle_length, 174)
 
     def test_eval_5(self):
         """
         Test if eval method will work
         """
         max_cycle_length = collatz_eval(345, 537)
-        self.assertEqual(max_cycle_length, 20)
+        self.assertEqual(max_cycle_length, 142)
 
     def test_eval_6(self):
         """
         Test if eval method will work
         """
         max_cycle_length = collatz_eval(428, 736)
-        self.assertEqual(max_cycle_length, 125)
+        self.assertEqual(max_cycle_length, 171)
 
     def test_eval_7(self):
         """
         Test if eval method will work
         """
         max_cycle_length = collatz_eval(149, 235)
-        self.assertEqual(max_cycle_length, 89)
+        self.assertEqual(max_cycle_length, 128)
 
     def test_eval_8(self):
         """
         Test if eval method will work
         """
         max_cycle_length = collatz_eval(1474, 1305)
-        self.assertEqual(max_cycle_length, 174)
+        self.assertEqual(max_cycle_length, 177)
 
     # -----
     # print
